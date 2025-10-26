@@ -8,7 +8,6 @@
     select(state, avg_weekly_wage) %>%
     filter(!state %in% c("District of Columbia, not unknown", "Puerto Rico", "Virgin Islands")) %>%
     slice(1:50)
-  
 
 # list of right-to-work states
   
